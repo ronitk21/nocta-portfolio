@@ -2,7 +2,6 @@ import { MDXProvider } from "@mdx-js/react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
 import { type ReactNode, useState } from "react";
-import { Navbar } from "@/components/layout/navbar";
 import { ThemeProvider } from "@/components/layout/theme-provider";
 import { mdxComponents } from "@/components/mdx/mdx-components";
 import { NotFound } from "@/components/not-found";
@@ -54,10 +53,7 @@ function RootDocument({ children }: { children: ReactNode }) {
 				<QueryClientProvider client={queryClient}>
 					<ThemeProvider theme={theme}>
 						<MDXProvider components={mdxComponents}>
-							<LenisProvider>
-								<Navbar />
-								{children}
-							</LenisProvider>
+							<LenisProvider>{children}</LenisProvider>
 						</MDXProvider>
 					</ThemeProvider>
 					<Toaster />

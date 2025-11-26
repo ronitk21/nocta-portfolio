@@ -37,9 +37,9 @@ export type BlogSeoPayload = {
 	date?: string;
 };
 
-const SITE_URL = "https://your-domain.com";
-const SITE_NAME = "Your Name";
-const DEFAULT_TITLE = "Your Name — Your Role";
+const SITE_URL = "https://ronitkedia.com";
+const SITE_NAME = "Ronit Kedia";
+const DEFAULT_TITLE = "Ronit Kedia — Software Developer";
 const DEFAULT_DESCRIPTION =
 	"Use this space to describe the kind of work you do, the industries you serve, and what makes your approach unique.";
 const DEFAULT_KEYWORDS = [

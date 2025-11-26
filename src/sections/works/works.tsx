@@ -8,8 +8,8 @@ export default function Works() {
 		/* biome-ignore lint/correctness/useUniqueElementIds: anchor target appears once */
 		<Section
 			id="works"
-			title="Preview a few highlight projects"
-			description="Swap in real case studies that show your range — from product builds to creative experiments."
+			title="Featured projects"
+			description="A snapshot of the products, experiments, and collaborations I’ve shipped lately—each one mixing thoughtful UX with dependable engineering."
 			className="grid grid-cols-1 gap-4"
 			badgeText="Featured projects"
 			badgeIcon={<GridIcon aria-hidden="true" className="size-3.5" />}

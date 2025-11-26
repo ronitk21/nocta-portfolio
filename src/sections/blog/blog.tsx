@@ -14,8 +14,8 @@ export default function Blog({ posts }: BlogSectionProps) {
 		/* biome-ignore lint/correctness/useUniqueElementIds: anchor target appears once */
 		<Section
 			id="blog"
-			title="Share your latest thinking"
-			description="Use this section to tease recent posts, public build logs, or long-form breakdowns of the work you're most proud of."
+			title="Latest posts"
+			description="Long-form notes on shipping products, solving tricky frontend bugs, and the ideas that influence how I work."
 			className="grid grid-cols-1 gap-4 md:grid-cols-2"
 			badgeText="Latest posts"
 			badgeIcon={<ReaderIcon aria-hidden="true" className="size-3.5" />}
